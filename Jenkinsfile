@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        BACKEND_IMAGE = "Jeeva/backend-app:latest"
-        FRONTEND_IMAGE = "Jeeva/frontend-app:latest"
+        BACKEND_IMAGE = "jeeva3104/backend-app:latest"
+        FRONTEND_IMAGE = "jeeva3104/frontend-app:latest"
         BACKEND_CONTAINER = "backend-container"
         FRONTEND_CONTAINER = "frontend-container"
         REGISTRY_CREDENTIALS = "docker-jeeva"  // Jenkins credentials ID
